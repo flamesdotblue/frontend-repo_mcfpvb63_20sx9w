@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Music, Zap, Sparkles, Flame, Stars, HeartPulse } from 'lucide-react';
+import { Music, Zap, Flame, Stars, HeartPulse } from 'lucide-react';
 
 const styles = [
   {
@@ -14,12 +14,6 @@ const styles = [
     icon: Music,
     desc: 'Urban grooves with attitude, rhythm, and freestyle expression.',
     benefits: ['Coordination', 'Strength', 'Confidence'],
-  },
-  {
-    name: 'Bharatanatyam',
-    icon: Sparkles,
-    desc: 'Classical Indian dance rooted in grace, discipline, and storytelling.',
-    benefits: ['Posture', 'Flexibility', 'Cultural connect'],
   },
   {
     name: 'Freestyle',
